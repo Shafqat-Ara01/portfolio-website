@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-portfolio {
+  background-color: black;
+  height: 70px;
+  color: white;
+}
+
+.nav-portfolio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav-portfolio ul a {
+  text-decoration: none;
+  color: white;
+  font-family: poppins, sans-serif;
+  padding: 10px 35px 10px 35px;
+  border: 1px solid transparent;
+  transition: all 0s ease-in;
+}
+.nav-portfolio ul a:hover {
+  border: 1px solid red;
+}
+
+.name {
+  font-family: poppins, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  background: linear-gradient(to right, white, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0s ease-in 0s;
+}
+.name:hover {
+  background: linear-gradient(to right, white, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+  text-decoration-color: white;
+  transform: scale(1.02);
+}
+
+.nav-portfolio button {
+  width: 100px;
+  height: 30px;
+  font-family: poppins, sans-serif;
+  color: black;
+  background-color: white;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  transition: all 0s ease-in;
+}
+.nav-portfolio button:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  box-shadow: 0px 0px 15px red, 0px 0px 30px red;
+  cursor: pointer;
+}
+
+/****hero-section****/
+.hero-sec {
+  background: #2e2e2e;
+  height: 600px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero-sec h1,
+h2,
+p {
+  font-family: inter, sans-serif;
+  margin-top: 10px;
+}
+
+.hero-sec p {
+  max-width: 60%;
+  text-align: center;
+}
+.intro,
+.work {
+  color: red;
+}
+
+.icons {
+  height: 20px;
+  width: 30%;
+  color: white;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-evenly;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+.icons i {
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 0;
+  transition: all 0s ease-in 0s;
+}
+
+.icons i:hover {
+  color: red;
+  position: relative;
+  bottom: 5px;
+}
+.button {
+  margin-top: 25px;
+}
+.button button {
+  height: 40px;
+  width: 150px;
+  border-radius: 13px;
+  background-color: white;
+  color: black;
+  font-family: poppins, sans-serif;
+}
+.button button:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  box-shadow: 0px 0px 15px red, 0px 0px 30px red;
+  cursor: pointer;
+}
+/***aboutme***/
+
+.About-me {
+  height: 500px;
+  background-color: #3a3a3a;
+  border-top: 2px solid white;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.About-me h2 {
+  text-align: center;
+  font-family: inter, sans-serif;
+}
+
+.About-me p {
+  max-width: 60%;
+  text-align: center;
+}
+
+/****Skills***/
+.skills {
+  height: 650px;
+  border-top: 2px solid white;
+  color: white;
+  background: #2e2e2e;
+  padding-top: 20px;
+  text-align: center;
+}
+.skills h2 {
+  text-decoration: underline;
+}
+.skill-sec1 {
+  height: 290px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.box-col1 {
+  height: 250px;
+  background-color: #3a3a3a;
+  border: 2px solid white;
+  width: 30%;
+  border-radius: 15px;
+  padding: 20px 10px 10px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.box-col1:hover {
+  box-shadow: 0px 0px 10px red, 0px 0px 30px red;
+  background-color: #2e2e2e;
+}
+.box-col1 h3,
+.box-col2 h3 {
+  font-family: inter, sans-serif;
+}
+.box-col2 {
+  height: 250px;
+  background-color: #3a3a3a;
+  border: 2px solid white;
+  width: 30%;
+  border-radius: 15px;
+  padding: 20px 10px 10px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.box-col2:hover {
+  box-shadow: 0px 0px 10px red, 0px 0px 30px red;
+  background-color: #2e2e2e;
+}
+.skill-sec2 {
+  height: 290px;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/****contact-me***/
+.contact-me {
+  height: 700px;
+  background-color: #3a3a3a;
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.contact-info {
+  height: 557px;
+  width: 50%;
+  color: white;
+  background-color: #2e2e2e;
+  border: 2px solid white;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 15px;
+}
+.contact-info:hover {
+  box-shadow: 0px 0px 10px red, 0px 0px 30px red;
+  background-color: #3a3a3a;
+}
+.contact-info h2 i {
+  font-size: 1rem;
+}
+.contact-info i:hover {
+  color: red;
+}
+.main-heading {
+  font-size: 2.5rem;
+  text-decoration: underline white;
+  padding-bottom: 20px;
+}
+.form {
+  padding-top: 20px;
+  color: white;
+}
+.form-sec1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: inter, sans-serif;
+}
+.form-sec1 input {
+  height: 2rem;
+  width: 30%;
+  border-radius: 8px;
+  border: 2px solid transparent;
+}
+input::placeholder {
+  color: grey;
+  padding-left: 3px;
+}
+
+.form-sec1 input:hover {
+  border: 2px solid red;
+}
+.form-sec2 h3 {
+  font-family: inter, sans-serif;
+  padding: 10px 0px 5px 0px;
+}
+.form-sec2 textarea {
+  width: 70%;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+textarea#textarea {
+  color: grey;
+  font-family: inter, sans-serif;
+  padding-left: 3px;
+}
+.form-sec2 textarea:hover {
+  border: 2px solid red;
+}
+.sumbit {
+  padding-top: 10px;
+}
+
+.sumbit button {
+  height: 4rem;
+  width: 9rem;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  border: 2px solid transparent;
+  transition: all 0s ease-in 0s;
+}
+.sumbit button:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  box-shadow: 0px 0px 15px red, 0px 0px 30px red;
+  cursor: pointer;
+}
+.footer {
+  height: 70px;
+  background-color: black;
+  border-top: 2px solid white;
+}
+.footer p {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
